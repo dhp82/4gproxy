@@ -68,11 +68,20 @@ Valid Options:
   
 If you have multiple network interfaces in your machine, and you want create proxy for each interface, you can set the local address in config file.
 
++ localAddr , the address should be the IP addre which used to connect with allproxy service, and it will be your wifi adapter IP in most case
+```
+  localAddr: 192.168.2.46
+```
+
 ## Limitations
 - You can create at most 2 proxies in one free PC client.
+  
+- Set a valid account in field "email", likes
+  ```
+  email: c@qq.com
+  ```
 
 ## Free Server
-+ conn2.trs.ai:9082  (US)
 + conn4.trs.ai:9082   (US)
 + conn3.trs.ai:9082   (My test env, so not stable)
 
