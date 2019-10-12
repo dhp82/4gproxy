@@ -66,7 +66,7 @@ Valid Options:
 ## Advance usage
 - After build 20190902
   
-If you have multiple network interfaces in your machine, and you want create proxy for each interface, you can set the local address in config file.
+If you have multiple network interfaces in your machine(Maybe some 4g dongles/stickers), and you want to create proxy for each device, then it's will meet your requirement, just set field 'localAddr' in conf_client.yaml.
 
 + localAddr , the address should be the IP addre which used to connect with allproxy service, and it will be your wifi adapter IP in most case
 ```
@@ -75,7 +75,8 @@ If you have multiple network interfaces in your machine, and you want create pro
 
 ## Limitations
 - You can create at most 2 proxies in one free PC client.
-  
+
+To remove the limitaions, you should buy a valid client acount with one time fee, and set it in config file.
 - Set a valid account in field "email", likes
   ```
   email: c@qq.com
