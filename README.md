@@ -78,7 +78,7 @@ If you have multiple network interfaces in your machine(Maybe some 4g dongles/st
 ## Limitations
 - You can create at most 2 proxies in one free PC client.
 
-To remove the limitaions, you should buy a valid client acount with one time fee, and set it in config file.
+Please contact me to remove the limitations.
 - Set a valid account in field "email", likes
   ```
   email: c@qq.com
@@ -86,7 +86,6 @@ To remove the limitaions, you should buy a valid client acount with one time fee
 
 ## Free Server
 + conn4.trs.ai:9082   (US)
-+ conn3.trs.ai:9082   (My test env, so not stable)
 
 ## Contact me
 If you want to use your self allproxy server to make better security and speed, pls feel free to contact me by email/skype: mailme.xu@gmail.com
