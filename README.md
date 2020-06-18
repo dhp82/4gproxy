@@ -65,9 +65,7 @@ Valid Options:
   -w string
         The working directory,default is the current directory
 		
-## Advance usage
-- After build 20190902
-  
+## Advance usage 
 If you have multiple network interfaces in your machine(Maybe some 4g dongles/stickers), and you want to create proxy for each device, then it's will meet your requirement, just set field 'localAddr' in conf_client.yaml.
 
 + localAddr , the address should be the IP addre which used to connect with allproxy service, and it will be your wifi adapter IP in most case
@@ -75,17 +73,8 @@ If you have multiple network interfaces in your machine(Maybe some 4g dongles/st
   localAddr: 192.168.2.46
 ```
 
-## Limitations
-- You can create at most 2 proxies in one free PC client.
-
-Please contact me to remove the limitations.
-- Set a valid account in field "email", likes
-  ```
-  email: c@qq.com
-  ```
-
 ## Free Server
 + conn4.trs.ai:9082   (US)
 
 ## Contact me
-If you want to use your self allproxy server to make better security and speed, pls feel free to contact me by email/skype: mailme.xu@gmail.com
+If you want to use your self allproxy server to make better security and speed, pls feel free to contact me by email/skype: mailme.xu#gmail.com
