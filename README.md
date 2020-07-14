@@ -14,6 +14,7 @@ Allproxy provides a easy to make your 4g proxy, it suporrts most of platform, an
 1. Download and flash the Image we built, then just plug your 4g device to PI.
 2. The allproxy client is saved in ~/allproxyClient
 3. The proxies info is save in ~/allproxyClient
+4. You can update to the latest arm version "allproxyC" in your PI, because the image is old.
 
 ## Windows/MacOs/Raspeberry/openWrt/Other Linux...
 1. Change the server address in conf_client.yaml or just use my free servers
