@@ -1,6 +1,9 @@
 ## How to build youself 4g proxies
 
 Allproxy provides a easy to make your 4g proxy, it suporrts most of platform, and easy to use.
+And th PC client will create proxy for each your network adapter, it means if you plugged 4g dongles in PC, you will get 4g proxy of it.
+
+The following video is for the old version, but you can also take a view.
 
 [![DEMO](https://img.youtube.com/vi/eQ9m05CQR8U/0.jpg)](https://www.youtube.com/watch?v=eQ9m05CQR8U)
 
