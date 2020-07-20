@@ -20,7 +20,7 @@ Allproxy provides a easy to make your 4g proxy, it suporrts most of platform, an
 1. Change the server address in conf_client.yaml or just use my free servers
 2. Open allproxyC
 
-## Notes for PC client
+## Where can I get the proxies address
 It will generate a file "proxy.info" in the working directory, which contains the proxies infomation, the content likes:
 ```
 {"proxies":
@@ -40,6 +40,31 @@ allproxyC -i
 ```bash
 allproxyC -q
 ```
+		
+## Advance usage 
+If you have multiple network interfaces in your machine(Maybe some 4g dongles/stickers), and you want to speed up the proxy,you can just set field 'localAddr' in conf_client.yaml.
+
++ localAddr , the address should be the IP addre which used to connect with allproxy service, and it will be your wifi adapter IP in most case
+```
+  localAddr: 192.168.2.46
+```
+
+## Free Server
++ conn4.trs.ai:9082   (US)
+
+     
+### How can I know which proxy is which device
+You can know it by the ip address now.
+```
+curl ifconfig.me  --interface wwlan1
+curl icanhazip.com  --interface wwlan1
+curl ifconfig.co  --interface wwlan1
+curl ip.cn  --interface wwlan1
+
+-- get IP of a proxy
+curl --proxy http://192.168.2.100:53625 ifconfig.me
+```
+ 
 
 ## Help
 You can get all valid parameters by:
@@ -67,17 +92,7 @@ Valid Options:
 
   -w string
         The working directory,default is the current directory
-		
-## Advance usage 
-If you have multiple network interfaces in your machine(Maybe some 4g dongles/stickers), and you want to create proxy for each device, then it's will meet your requirement, just set field 'localAddr' in conf_client.yaml.
 
-+ localAddr , the address should be the IP addre which used to connect with allproxy service, and it will be your wifi adapter IP in most case
-```
-  localAddr: 192.168.2.46
-```
-
-## Free Server
-+ conn4.trs.ai:9082   (US)
 
 ## Contact me
 If you want to use your self allproxy server to make better security and speed, pls feel free to contact me by email/skype: mailme.xu#gmail.com
