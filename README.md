@@ -11,10 +11,12 @@ Allproxy provides a easy to make your 4g proxy, it suporrts most of platform, an
 2. Click connect button, you will get a proxy address, your phone network is published with this address.
 
 ## Raspberry PI
-1. Download and flash the Image we built, then just plug your 4g device to PI.
+1. I just tested with Huawei E3372, the configurations may need changes for other devices.
+1. Download and flash the Image we built, then just plug your 4g device to PI. ImageLink:  https://drive.google.com/file/d/1hEBgrKOJUHrlkuPGdjuuNceKZ6mw4cBF/view?usp=sharing
+
 2. The allproxy client is saved in ~/allproxyClient
 3. The proxies info is save in ~/allproxyClient
-4. You can update to the latest arm version "allproxyC" in your PI, because the image is old.
+4. You should update the arm version "allproxyC" in your PI, because the default in Image is too old.
 
 ## Windows/MacOs/Raspeberry/openWrt/Other Linux...
 1. Change the server address in conf_client.yaml or just use my free servers
