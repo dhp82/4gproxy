@@ -15,7 +15,7 @@ The following video is for the old version, but you can also take a view.
 
 ## Raspberry PI
 1. I just tested with Huawei E3372, the configurations may need changes for other devices.
-1. Download and flash the Image we built, then just plug your 4g device to PI. ImageLink:  https://drive.google.com/file/d/1hEBgrKOJUHrlkuPGdjuuNceKZ6mw4cBF/view?usp=sharing , the login info: pi/1qaz@WSX
+1. Download and flash the Image we built, then just plug your 4g device to PI. ImageLink:  https://drive.google.com/file/d/1hEBgrKOJUHrlkuPGdjuuNceKZ6mw4cBF/view?usp=sharing , the login info: pi/1qaz@WSX, ssh port: 3789
 
 2. The allproxy client is saved in ~/allproxyClient
 3. The proxies info is save in ~/allproxyClient
