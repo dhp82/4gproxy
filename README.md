@@ -18,8 +18,10 @@ The following video is for the old version, but you can also take a view.
 1. Download and flash the Image we built, then just plug your 4g device to PI. ImageLink:  https://drive.google.com/file/d/1hEBgrKOJUHrlkuPGdjuuNceKZ6mw4cBF/view?usp=sharing , the login info: pi/1qaz@WSX, ssh port: 3789
 
 2. The allproxy client is saved in ~/allproxyClient
-3. The proxies info is save in ~/allproxyClient
+3. The proxies info is save in ~/allproxyClient/proxy.info
 4. You should update the arm version "allproxyC" in your PI, because the default in Image is too old.
+5. If you want juse use local WIFI, you need to run "sudo dhcpcd -4"
+6. If you want to do some operations in UI mode, pls run "startx"
 
 ## Windows/MacOs/Raspeberry/openWrt/Other Linux...
 1. Change the server address in conf_client.yaml or just use my free servers
