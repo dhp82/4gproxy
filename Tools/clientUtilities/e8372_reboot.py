@@ -22,7 +22,11 @@ pCnt = len(sys.argv)
 if pCnt != 4:
     print("Invalid parameter")
 else:
-    userName, pwd, gateway = sys.argv[1:4]
+    userName, pwd, infIP = sys.argv[1:4]
+    gwArr = infIP.split(".")
+    gwArr[3] = "1"
+    gateway = "."
+    gateway = gateway.join(gwArr)
     print(gateway)
     ctx = get_session(userName, pwd, gateway)
     validCtx = valid_context(ctx)
