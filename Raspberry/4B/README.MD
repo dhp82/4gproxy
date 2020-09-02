@@ -21,3 +21,20 @@ curl -o upgrade_client -k https://raw.githubusercontent.com/xapanyun/4gproxy/mas
 chmod +x upgrade_client
 sudo ./upgrade_client
 ```
+
+## Update 3
+supports huawei E8372
+1. navigate to ~/allproxyClient
+2. download client tool
+```
+curl -O -k https://raw.githubusercontent.com/xapanyun/4gproxy/master/Tools/clientUtilities/linux/arm/clientUtilities
+
+```
+3. The command for e3372 is
+```
+/home/pi/allproxyClient/clientUtilities -deviceMode e3372 -params $IP
+```
+and for e8372 is
+```
+/home/pi/allproxyClient/clientUtilities -deviceMode e8372 -params $IP#user#password
+```
