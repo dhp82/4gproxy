@@ -11,5 +11,13 @@ For e8372 is:
 ```
 clientUtilities -deviceMode e8372 -params $IP#user#password
 ```
+
+if you want do reboot:
+
+```
+clientUtilities -deviceMode e8372 -params $IP#user#password -command reboot
+or
+clientUtilities -deviceMode e3372 -params $IP -command reboot
+```
 ## wpa_cli
 Android wifi debug tool
