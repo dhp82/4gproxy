@@ -13,6 +13,10 @@ The following video is for the old version, but you can also take a view.
 1. Download and Install allproxy app from google play.
 2. Click connect button, you will get a proxy address, your phone network is published with this address.
 
+## 4g Dongles
+1. We had just tested with Huawei E3372, E8372, E3276
+2. It should also works with others, but we need to write script to do IP refresh on the other devices.
+   
 ## Raspberry PI
 1. I just tested with Huawei E3372, the configurations may need changes for other devices.
 1. Download and flash the Image we built, then just plug your 4g device to PI. ImageLink:  https://drive.google.com/file/d/1hEBgrKOJUHrlkuPGdjuuNceKZ6mw4cBF/view?usp=sharing , the login info: pi/1qaz@WSX, ssh port: 3789
