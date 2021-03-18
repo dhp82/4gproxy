@@ -26,8 +26,13 @@ addRuleTbl(){
 
 		if [ `echo ${roTb} | awk -v tem="0" '{print($1>tem)?"1":"0"}'` -eq "1" ]
 		then
-			ip ru add from $ethIp lookup $roTb
-			ip ro add default via $gwIp ta $roTb
+		    ## add or change route to HA
+            local EXIST=`ip ru show ta ${roTb}| wc -l`
+            if [ $EXIST -eq 0 ]
+			then
+			  ip ru add from $ethIp lookup $roTb
+			  ip ro add default via $gwIp ta $roTb
+			fi
 		fi
 	fi
 }
