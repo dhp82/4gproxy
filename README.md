@@ -30,6 +30,11 @@ The following video is for the old version, but you can also take a view.
 5. If you want juse use local WIFI, you need to run "sudo dhcpcd -4"
 6. If you want to do some operations in UI mode, pls run "startx"
 
+You can also install it with the following command:
+```
+wget -O - https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Linux/N1/install.sh | bash
+```
+
 ## Windows/MacOs/Raspeberry/openWrt/Other Linux...
 1. Change the server address in conf_client.yaml or just use my free servers
 2. Open allproxyC
