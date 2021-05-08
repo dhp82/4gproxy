@@ -10,6 +10,7 @@ mkdir -p ~/allproxyClient
 echo "Downloading the allproxy client $curTime"
 curl -O -k  https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Linux/$arch/allproxyclient
 
+echo "Downloading the nextNum $curTime"
 curl -O -k https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Tools/nextNum/$arch/linux/nextNum
 
 echo "Downloading the config gile $curTime"
@@ -23,6 +24,7 @@ echo "overwirte with the new client"
 mv -f allproxyclient $allpDir/allproxyC
 mv -f conf_client.yaml $allpDir/
 mv -f clientUtilities $allpDir/
+mv -f nextNum $allpDir/
 
 echo "set execute permission to script"
 chmod +x $allpDir/allproxyC
