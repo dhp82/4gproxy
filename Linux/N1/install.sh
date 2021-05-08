@@ -1,33 +1,38 @@
 #!/bin/bash
 
 curTime=$(date "+%Y%m%d%H%M%S")
+arch="arm"
 
+allpDir="/root/allproxyClient"
 echo "createing directory"
 mkdir -p ~/allproxyClient
 
 echo "Downloading the allproxy client $curTime"
-curl -O -k  https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Linux/arm/allproxyclient
+curl -O -k  https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Linux/$arch/allproxyclient
+
+curl -O -k https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Tools/nextNum/$arch/linux/nextNum
 
 echo "Downloading the config gile $curTime"
-curl -O -k  https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Linux/arm/conf_client.yaml
+curl -O -k  https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Linux/$arch/conf_client.yaml
 
 echo "Downloading the  clientUtil $curTime"
-curl -O -k https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Tools/clientUtilities/linux/arm/clientUtilities
+curl -O -k https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Tools/clientUtilities/linux/$arch/clientUtilities
 
 
 echo "overwirte with the new client"
-mv -f allproxyclient ~/allproxyClient/allproxyC
-mv -f conf_client.yaml ~/allproxyClient/
-mv -f clientUtilities ~/allproxyClient/
+mv -f allproxyclient $allpDir/allproxyC
+mv -f conf_client.yaml $allpDir/
+mv -f clientUtilities $allpDir/
 
 echo "set execute permission to script"
-chmod +x ~/allproxyClient/allproxyC
-chmod +x ~/allproxyClient/clientUtilities
+chmod +x $allpDir/allproxyC
+chmod +x $allpDir/clientUtilities
+chmod +x $allpDir/nextNum
 
 
 echo "Beging installl network script"
-curl -o 90upallprxy -k https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Raspberry/4B/update/90upallprxy
-curl -o 90downallprxy -k https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Raspberry/4B/update/90downallprxy
+curl -o 90upallprxy -k https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Raspberry/4B/update/90upallprxy2
+curl -o 90downallprxy -k https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Raspberry/4B/update/90downallprxy2
 
 mv -f 90upallprxy /etc/network/if-up.d/
 echo "set execute permission to script"
