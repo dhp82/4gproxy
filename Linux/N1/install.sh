@@ -5,7 +5,7 @@ arch="arm"
 
 allpDir="/root/allproxyClient"
 echo "createing directory"
-mkdir -p ~/allproxyClient
+mkdir -p $allpDir/
 
 echo "Downloading the allproxy client $curTime"
 curl -O -k  https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Linux/$arch/allproxyclient
