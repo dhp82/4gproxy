@@ -24,3 +24,6 @@ A tool which supports http and socks5 proxy verification
 
 ## wpa_cli
 Android wifi debug tool
+
+## nextNum
+It is used in our bash script
