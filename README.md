@@ -32,7 +32,7 @@ The following video is for the old version, but you can also take a view.
 
 You can also install it with the following command:
 ```
-wget -O - https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Linux/N1/install.sh | bash
+sudo wget -O - https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Linux/N1/install.sh | bash
 ```
 
 ## Windows/MacOs/Raspeberry/openWrt/Other Linux...
