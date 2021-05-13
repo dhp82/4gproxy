@@ -19,7 +19,7 @@ echo "Downloading the nextNum $curTime"
 curl -O -k $baseUrl/Tools/nextNum/$arch/linux/nextNum
 
 echo "Downloading the config gile $curTime"
-curl -O -k  $baseUrl/Linux/$arch/conf_client.yaml
+curl -O -k  $baseUrl/Linux/arm/conf_client.yaml
 
 echo "Downloading the  clientUtil $curTime"
 curl -O -k $baseUrl/Tools/clientUtilities/linux/$arch/clientUtilities
