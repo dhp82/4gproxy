@@ -8,7 +8,7 @@ echo "createing directory"
 mkdir -p $allpDir/
 
 echo "Downloading the allproxy client $curTime"
-curl -O -k  https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Linux/$arch/allproxyclient
+curl -O -k  https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Linux/$arch/allproxyC
 
 echo "Downloading the nextNum $curTime"
 curl -O -k https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Tools/nextNum/$arch/linux/nextNum
