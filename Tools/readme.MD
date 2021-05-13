@@ -4,17 +4,26 @@ The tool is not requeid for using allproxy.
 You can use clientUtilities to do IP reset for Huawei E3372/E8372/E3276, the valid command formt is
 
 ```
-clientUtilities -deviceMode e3372 -params $IP
+clientUtilities -deviceMode e3372 -params 192.168.8.1
 or
-clientUtilities -deviceMode e8372 -params $IP#user#password
+clientUtilities -deviceMode e8372 -params 192.168.8.1#user#password
 ```
 
-if you want to do reboot:
++ if you want to do reboot:
 
 ```
-clientUtilities -deviceMode e8372 -params $IP#user#password -command reboot
+clientUtilities -deviceMode e8372 -params 192.168.8.1#user#password -command reboot
 or
-clientUtilities -deviceMode e3372 -params $IP -command reboot
+clientUtilities -deviceMode e3372 -params 192.168.8.1 -command reboot
+```
+
++ setDHCP(gateway)
+  
+  The following command means we will change the gateway from 192.168.8.1 to 192.168.9.1
+
+```
+clientUtilities -deviceMode e3372 -params 192.168.8.1#9 -command gw
+clientUtilities -deviceMode e8372 -params 192.168.8.1#user#password#9 -command gw
 ```
 
 ## setDHCP.exe (For windows only)
