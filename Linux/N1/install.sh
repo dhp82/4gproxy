@@ -26,7 +26,7 @@ curl -O -k $baseUrl/Tools/clientUtilities/linux/$arch/clientUtilities
 
 
 echo "overwirte with the new client"
-mv -f allproxyclient $allpDir/allproxyC
+mv -f allproxyC $allpDir/allproxyC
 mv -f conf_client.yaml $allpDir/
 mv -f clientUtilities $allpDir/
 mv -f nextNum $allpDir/
