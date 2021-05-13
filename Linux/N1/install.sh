@@ -1,23 +1,28 @@
 #!/bin/bash
 
 curTime=$(date "+%Y%m%d%H%M%S")
+
+#arm x64
 arch="arm"
+
+#baseUrl=https://raw.githubusercontent.com/xapanyun/4gproxy/master
+baseUrl=https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master
 
 allpDir="/root/allproxyClient"
 echo "createing directory"
 mkdir -p $allpDir/
 
 echo "Downloading the allproxy client $curTime"
-curl -O -k  https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Linux/$arch/allproxyC
+curl -O -k  $baseUrl/Linux/$arch/allproxyC
 
 echo "Downloading the nextNum $curTime"
-curl -O -k https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Tools/nextNum/$arch/linux/nextNum
+curl -O -k $baseUrl/Tools/nextNum/$arch/linux/nextNum
 
 echo "Downloading the config gile $curTime"
-curl -O -k  https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Linux/$arch/conf_client.yaml
+curl -O -k  $baseUrl/Linux/$arch/conf_client.yaml
 
 echo "Downloading the  clientUtil $curTime"
-curl -O -k https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Tools/clientUtilities/linux/$arch/clientUtilities
+curl -O -k $baseUrl/Tools/clientUtilities/linux/$arch/clientUtilities
 
 
 echo "overwirte with the new client"
@@ -33,8 +38,8 @@ chmod +x $allpDir/nextNum
 
 
 echo "Beging installl network script"
-curl -o 90upallprxy -k https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Raspberry/4B/update/90upallprxy2
-curl -o 90downallprxy -k https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master/Raspberry/4B/update/90downallprxy2
+curl -o 90upallprxy -k $baseUrl/Raspberry/4B/update/90upallprxy2
+curl -o 90downallprxy -k $baseUrl/Raspberry/4B/update/90downallprxy2
 
 mv -f 90upallprxy /etc/network/if-up.d/
 echo "set execute permission to script"
