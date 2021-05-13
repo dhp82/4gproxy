@@ -28,6 +28,8 @@ clientUtilities -deviceMode e8372 -params 192.168.8.1#user#password#9 -command g
 
 ## setDHCP.exe (For windows only)
 A tool which can change the DHCP of huaweiE3372
++ you can use clientUtilities instead of this tool.
+  
 ## proxyTester (For windows only)
 A tool which supports http and socks5 proxy verification
 
