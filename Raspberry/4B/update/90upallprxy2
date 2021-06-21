@@ -7,6 +7,11 @@ echo "up at $curTime for $IFACE" >> /tmp/1.log
 addRuleTbl(){
     local currIFace=$1
    
+    if [ "$currIFace" == "eth0" ] || [ "$currIFace" == "lo" ] || [ "$currIFace" == "wlan0" ] || [ "$currIFace" == "--all" ]
+	then
+	  echo "Ignore $IFACE" >> /tmp/1.log
+	  return 0
+	fi
    
 	local ethIp=`ifconfig $currIFace | grep "inet" | awk 'NR==1{print $2}'`
 	#local ethIp="192.168.9.100"
