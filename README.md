@@ -17,7 +17,7 @@ The following video is for the old version, but you can also take a view.
 2. Click connect button, you will get a proxy address, your phone network is published with this address.
 
 ## 4g Dongles
-1. We had just tested with Huawei E3372, E8372, E3276
+1. We had just tested with Huawei E3372, E8372, E3276,CLR900A
 2. It should also works with others, but we need to write script to do IP refresh on the other devices.
    
 ## Raspberry PI
