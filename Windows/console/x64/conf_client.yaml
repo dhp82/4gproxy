@@ -1,16 +1,17 @@
-serverAddr: ServerIP:9082
-apiUrl: "http://ServerIP:9081"
+serverAddr: conn4.trs.ai:9082
+#apiUrl: "http://ServerIP:9081"
 
 protocols:
   - name: http
 #  - name: socks5
 
+#The IP of Connected WIFI/Lan, not requried, but you can use it to have better speed
+#localAddr: 192.168.2.101
 #enable_ipv6: true
 #onlyDefault: true
 ipAsUid: true
 #connType: kcp
 #not required,
-#localAddr: 192.168.2.101
 #Not required,
 logTo: ./all.log
 
