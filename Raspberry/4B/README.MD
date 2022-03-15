@@ -5,6 +5,7 @@
 4. Update to the latest "allproxyC" arm version.
 5. Kill alproxyC process and it will start automaticlly.
 
+
 # Upgrade
 For the bug fixing reason, I had updated some script or clien of PI, too save our time, you can still use the old PI image and when use the following upgrade script.
 
