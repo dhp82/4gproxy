@@ -1,6 +1,6 @@
 ## Contact me
 1. If you want to use your self allproxy server to make better security and speed, pls feel free to contact me by email/skype: mailme.xu#gmail.com
-2. Official news publish TG channel: https://t.me/+9PSro1PpErM0ZjM9
+2. Official news publish TG channel: https://t.me/allproxypub
 
 
 ## How to build youself 4g proxies
