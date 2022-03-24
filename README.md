@@ -1,3 +1,8 @@
+## Contact me
+1. If you want to use your self allproxy server to make better security and speed, pls feel free to contact me by email/skype: mailme.xu#gmail.com
+2. Official news publish TG channel: https://t.me/+9PSro1PpErM0ZjM9
+
+
 ## How to build youself 4g proxies
 
 Allproxy provides a easy to make your 4g proxy, it suporrts most of platform, and easy to use.
@@ -115,5 +120,3 @@ Valid Options:
         The working directory,default is the current directory
 
 
-## Contact me
-If you want to use your self allproxy server to make better security and speed, pls feel free to contact me by email/skype: mailme.xu#gmail.com
