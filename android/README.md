@@ -3,3 +3,7 @@ If you want change the options file programmatically, you can just change the fi
 
 e.g:
 Some phone may have same uniqueId in some time, you can just edit "uid" is this file to use another uqiqueId
+
+## Supports IPRotation for non-rooted phone (from version 80)
+https://blog.allproxy.io/2022/05/10/ip-rotation-for-r-non-rooted-devices/
+
