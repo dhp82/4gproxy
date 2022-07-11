@@ -1,3 +1,8 @@
+## Version 83
+1. Pls don't use version 80 ~ 82, it used wrong package id, so it will makes proxy port difference
+2. We fixed package id issue
+3. Move big blue button to bottom
+
 ## Version 82
 Added 2 seconds delay during airplane off/on
 
