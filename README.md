@@ -121,3 +121,14 @@ Valid Options:
         The working directory,default is the current directory
 
 
+## SuperPort SerachCondition
+You can specify ip filter if you are using superPort, e.g: the proxy address "http://uname--user1--country--it:pwd@xxxxx:1234" means you want just use the IP that contry code is "it".
+We provides the following valid conditions:
+1. country  e.g:  country--us
+2. deviceport  e.g:  deviceport--3452 , if you want use specieid device with superPort
+3. ip   e.g: ip--1.2.3.4
+4. state  e.g: state--ca
+5. city  e.g: city--ceres
+6. isp e.g: isp--t-mobile  , pls remove the "space" in isp name
+7. session  e.g: session--1,  you can use any unique id as session value, it will fix the proxy
+8. fixsession, same as session, just one difference, it will no response if the ip of session is invalid
