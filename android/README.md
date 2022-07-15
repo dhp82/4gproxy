@@ -1,3 +1,9 @@
+## ver85
+We removed uniqueId storage in local file according customer request. Because it will hard to do backup and move the new phone.
+
+## **Ver84** -- Save the Reconnection time
+We optimized reconection logic in this version, so the average reconnection time is decreased, from 10s to 5s
+
 ## Version 83
 1. Pls don't use version 80 ~ 82, it used wrong package id, so it will makes proxy port difference
 2. We fixed package id issue
