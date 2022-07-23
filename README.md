@@ -127,7 +127,7 @@ We provides the following valid conditions:
 1. country  e.g:  country--us
 2. deviceport  e.g:  deviceport--3452 , if you want use specieid device with superPort
 3. ip   e.g: ip--1.2.3.4
-4. state  e.g: state--ca
+4. state  e.g: state--ca   state--sp   (means sao paulo)
 5. city  e.g: city--ceres
 6. isp e.g: isp--t-mobile  , pls remove the "space" in isp name
 7. session  e.g: session--1,  you can use any unique id as session value, it will fix the proxy
