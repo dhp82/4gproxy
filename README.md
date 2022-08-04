@@ -1,5 +1,5 @@
 ## Contact me
-1. If you want to use your self allproxy server to make better security and speed, pls feel free to contact me by email/skype: mailme.xu#gmail.com
+1. If you want to use your self allproxy server to make better security and speed, pls feel free to contact me by telegram: https://t.me/allproxyofficial
 2. Official news publish TG channel: https://t.me/allproxypub
 
 
