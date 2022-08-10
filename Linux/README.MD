@@ -5,7 +5,7 @@
 # Debug
 1. Check the current network interfaces
 ```
-allproxyC -debug ig
+allproxyC -debug if
 ```
 
 # IpV6
