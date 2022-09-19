@@ -5,8 +5,8 @@ curTime=$(date "+%Y%m%d%H%M%S")
 #arm x64
 arch="arm"
 
-#baseUrl=https://raw.githubusercontent.com/xapanyun/4gproxy/master
-baseUrl=https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master
+baseUrl=https://raw.githubusercontent.com/xapanyun/4gproxy/master
+#baseUrl=https://nxu_xa.coding.net/p/allp/d/allp/git/raw/master
 
 allpDir="/root/allproxyClient"
 echo "createing directory"
