@@ -21,6 +21,8 @@ The following video is for the old version, but you can also take a view.
 ## Android
 1. Download and Install allproxy app from google play.
 2. Click connect button, you will get a proxy address, your phone network is published with this address.
+---
+You can use our sample project(SDK/Android/sample_project) to see how it is simple to build a android proxy.
 
 ## 4g Dongles
 1. We had just tested with Huawei E3372, E8372, E3276,CLR900A
