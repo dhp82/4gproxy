@@ -2,10 +2,18 @@ package pkg.myapp.myproxy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.Locale;
 
 import peerproxyClientSdk.PeerproxyClientSdk;
 
@@ -32,6 +40,57 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private String getDeviceInfo() {
+        JSONObject jsonDevice = new JSONObject();
+        try {
+            Context context = this.getApplicationContext();
+
+            //硬件制造商（MANUFACTURER）
+            String manufacturer = android.os.Build.MANUFACTURER;
+
+            jsonDevice.put("manufacturer", manufacturer);
+
+            //品牌名称（BRAND）
+            String brand = android.os.Build.BRAND;
+            jsonDevice.put("brand", brand);
+            //主板名称（BOARD）
+            String board = android.os.Build.BOARD;
+            jsonDevice.put("board", board);
+            //设备名 （DEVICE）
+            String device = android.os.Build.DEVICE;
+            jsonDevice.put("device", device);
+            //型号（MODEL）
+            String model = android.os.Build.MODEL;
+            jsonDevice.put("model", model);
+            //产品名称（PRODUCT）
+            String product = android.os.Build.PRODUCT;
+            jsonDevice.put("product", product);
+            //设备唯一识别码（FINGERPRINT）
+            String fingerprint = android.os.Build.FINGERPRINT;
+            jsonDevice.put("fingerprint", fingerprint);
+            //CPU指令集（CPU_ABI）
+            String cpuAbi = android.os.Build.CPU_ABI;
+            jsonDevice.put("cpuAbi", cpuAbi);
+            //CPU指令集2（CPU_ABI2）
+            String abi2 = android.os.Build.CPU_ABI2;
+            jsonDevice.put("cpuAbi2", abi2);
+            //硬件序列号（SERIAL）
+            String serial = android.os.Build.ID;
+            jsonDevice.put("serial", serial);
+
+            jsonDevice.put("verion_release", Build.VERSION.RELEASE);
+            jsonDevice.put("verion_SDKINT", Build.VERSION.SDK_INT);
+            jsonDevice.put("verion_codename", Build.VERSION.CODENAME);
+            jsonDevice.put("hardware", Build.HARDWARE);
+            jsonDevice.put("locale", Locale.getDefault().toString());
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        return jsonDevice.toString();
+    }
+
     private void runProxy() {
         new Thread(new Runnable() {
             @Override
@@ -41,8 +100,9 @@ public class MainActivity extends AppCompatActivity {
                   String serverAddr = "conn4.allproxy.io:9082";
                   Boolean enableHttp = true;
                   Boolean enableS5 = true;
-                  String androidId = "test_id@111111";
-                  String externalInfo = "{}";
+                  String androidId = Settings.System.getString(getContentResolver(), Settings.Secure.ANDROID_ID);
+
+                  String externalInfo = getDeviceInfo();
                   PeerproxyClientSdk.connectV2(
                           serverAddr,
                           enableHttp,
