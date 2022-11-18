@@ -45,36 +45,36 @@ public class MainActivity extends AppCompatActivity {
         try {
             Context context = this.getApplicationContext();
 
-            //硬件制造商（MANUFACTURER）
+            //（MANUFACTURER）
             String manufacturer = android.os.Build.MANUFACTURER;
 
             jsonDevice.put("manufacturer", manufacturer);
 
-            //品牌名称（BRAND）
+            //（BRAND）
             String brand = android.os.Build.BRAND;
             jsonDevice.put("brand", brand);
-            //主板名称（BOARD）
+            //（BOARD）
             String board = android.os.Build.BOARD;
             jsonDevice.put("board", board);
-            //设备名 （DEVICE）
+            // （DEVICE）
             String device = android.os.Build.DEVICE;
             jsonDevice.put("device", device);
-            //型号（MODEL）
+            //（MODEL）
             String model = android.os.Build.MODEL;
             jsonDevice.put("model", model);
-            //产品名称（PRODUCT）
+            //（PRODUCT）
             String product = android.os.Build.PRODUCT;
             jsonDevice.put("product", product);
-            //设备唯一识别码（FINGERPRINT）
+            //（FINGERPRINT）
             String fingerprint = android.os.Build.FINGERPRINT;
             jsonDevice.put("fingerprint", fingerprint);
-            //CPU指令集（CPU_ABI）
+            //（CPU_ABI）
             String cpuAbi = android.os.Build.CPU_ABI;
             jsonDevice.put("cpuAbi", cpuAbi);
-            //CPU指令集2（CPU_ABI2）
+            //（CPU_ABI2）
             String abi2 = android.os.Build.CPU_ABI2;
             jsonDevice.put("cpuAbi2", abi2);
-            //硬件序列号（SERIAL）
+            //（SERIAL）
             String serial = android.os.Build.ID;
             jsonDevice.put("serial", serial);
 
