@@ -1,3 +1,6 @@
+## Ver87
+Update the ip rotation feature for non-rooted phone, we use a new way to do it to make it works more stable.
+
 ## ver85
 We removed uniqueId storage in local file according customer request. Because it will hard to do backup and move the new phone.
 
