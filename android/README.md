@@ -1,3 +1,9 @@
+## Ver89
+Added SMS feature, you can receive SMS in dashboard.
+
+## Ver88
+Fixed crash issue on android 12
+
 ## Ver87
 Update the ip rotation feature for non-rooted phone, we use a new way to do it to make it works more stable.
 
