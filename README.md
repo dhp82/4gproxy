@@ -3,6 +3,11 @@
 2. Official news channel: https://t.me/allproxypub
 
 
+## Install the server application file
+The self deployed server is just for paid users, it provides more control and features to the users.
+1. Contract me to get a paid lic
+2. Use the correct lic in conf_svr.yaml
+3. Deploy it by the shell script "install.sh"
 
 ## How to build youself 4g proxies
 
