@@ -1,8 +1,31 @@
 #!/bin/bash
 
+# Set default username
+DEFAULT_USERNAME="admin"
+DEFAULT_PWD="admin"
+DEFAULT_DIR="/root/allproxyS"
+
+SPDIR="/etc/"
+SPCONFDIR="/etc/supervisor.d/"
+
+# Prompt for username
+read -p "Enter allproxy directory [default is $DEFAULT_DIR]: " ALLPDIR
+ALLPDIR=${ALLPDIR:-$DEFAULT_DIR}
+
+# Prompt for username
+read -p "Enter username [default is $DEFAULT_USERNAME]: " USERNAME
+
+# Use default username if input is empty
+USERNAME=${USERNAME:-$DEFAULT_USERNAME}
+
+read -p "Enter username [default is $DEFAULT_PWD]: " USERPWD
+USERPWD=${USERPWD:-$DEFAULT_PWD}
+
 # Check if the system is Ubuntu or CentOS
 if [ -f /etc/lsb-release ]; then
   OS="Ubuntu"
+  SPDIR="/etc/supervisor/"
+  SPCONFDIR="/etc/supervisor/conf.d/"
   CON_NAME="allproxyS.conf"
 elif [ -f /etc/redhat-release ]; then
   sudo yum install -y epel-release
@@ -53,10 +76,10 @@ fi
 
 
 # Create the default application configuration file for Supervisor
-sudo echo -e "[program:allproxyS]\ndirectory=/root/allproxyS\ncommand=/root/allproxyS/allproxyS_x\nuser=root\nstopsignal=INT\nautostart=true\nautorestart=true\nstartretries=3\nstderr_logfile=/var/log/allproxys.err.log\nstdout_logfile=/var/log/allproxys.out.log" > /etc/supervisor/conf.d/$CON_NAME
+sudo echo -e "[program:allproxyS]\ndirectory=/root/allproxyS\ncommand=/root/allproxyS/allproxyS_x\nuser=root\nstopsignal=INT\nautostart=true\nautorestart=true\nstartretries=3\nstderr_logfile=/var/log/allproxys.err.log\nstdout_logfile=/var/log/allproxys.out.log" > $SPCONFDIR/$CON_NAME
 
 #change minfds
-sudo sed -i '/\[supervisord\]/a minfds=200000   ;' /etc/supervisor/supervisord.conf
+sudo sed -i '/\[supervisord\]/a minfds=200000   ;' $SPDIR/supervisord.conf
 sudo echo "* soft nofile 200000" | sudo tee -a /etc/security/limits.conf
 sudo echo "* hard nofile 200000" | sudo tee -a /etc/security/limits.conf
 sudo systemctl restart supervisor
