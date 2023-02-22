@@ -365,16 +365,16 @@ body > pre {
           </div>
         </div>
         <div class="g-doc">
-          <div class="table-of-contents"><ul><li><a href="#proxies">Proxies</a><ul><li><a href="#getcommandresults0a3ca20id3dgetcommandresults3e203ca3e">GetCommandResults
-<a id=GetCommandResults> </a></a></li><li><a href="#getcommands0a3ca20id3dgetcommands3e203ca3e">GetCommands
-<a id=GetCommands> </a></a></li><li><a href="#getspecifyproxies0a3ca20id3dgetspecifyproxies3e203ca3e">GetSpecifyProxies
-<a id=GetSpecifyProxies> </a></a></li><li><a href="#publishcommand0a3ca20id3dpublishcommand3e203ca3e">PublishCommand
-<a id=PublishCommand> </a></a></li><li><a href="#pushcommandresult0a3ca20id3dpushcommandresult3e203ca3e">PushCommandResult
-<a id=PushCommandResult> </a></a></li><li><a href="#read20me0a3ca20id3dread20me3e203ca3e">Read Me
-<a id=Read Me> </a></a></li><li><a href="#resetipbyport0a3ca20id3dresetipbyport3e203ca3e">ResetIPByPort
-<a id=ResetIPByPort> </a></a></li><li><a href="#updateproxyauth0a3ca20id3dupdateproxyauth3e203ca3e">UpdateProxyAuth
-<a id=UpdateProxyAuth> </a></a></li><li><a href="#superport-clearsession0a3ca20id3dsuperport-clearsession3e203ca3e">superPort_ClearSession
-<a id=superPort_ClearSession> </a></a></li><li><a href="#serverinformation0a3ca20id3dserverinformation3e203ca3e">ServerInformation
+          <div class="table-of-contents"><ul><li><a href="#proxies">Proxies</a><ul><li><a href="#clearporttraffic0a3ca20id3dclearporttraffic3e203ca3e">ClearPortTraffic
+<a id=ClearPortTraffic> </a></a></li><li><a href="#read20me0a3ca20id3dread20me3e203ca3e">Read Me
+<a id=Read Me> </a></a></li><li><a href="#statisticinfo0a3ca20id3dstatisticinfo3e203ca3e">StatisticInfo
+<a id=StatisticInfo> </a></a></li><li><a href="#getcommands0a3ca20id3dgetcommands3e203ca3e">GetCommands
+<a id=GetCommands> </a></a></li><li><a href="#pushcommandresult0a3ca20id3dpushcommandresult3e203ca3e">PushCommandResult
+<a id=PushCommandResult> </a></a></li><li><a href="#publishcommand0a3ca20id3dpublishcommand3e203ca3e">PublishCommand
+<a id=PublishCommand> </a></a></li><li><a href="#getcommandresults0a3ca20id3dgetcommandresults3e203ca3e">GetCommandResults
+<a id=GetCommandResults> </a></a></li><li><a href="#getspecifyproxies0a3ca20id3dgetspecifyproxies3e203ca3e">GetSpecifyProxies
+<a id=GetSpecifyProxies> </a></a></li><li><a href="#updateproxyauth0a3ca20id3dupdateproxyauth3e203ca3e">UpdateProxyAuth
+<a id=UpdateProxyAuth> </a></a></li><li><a href="#serverinformation0a3ca20id3dserverinformation3e203ca3e">ServerInformation
 <a id=ServerInformation> </a></a></li><li><a href="#getproxoies0a3ca20id3dgetproxoies3e203ca3e">GetProxoies
 <a id=GetProxoies> </a></a></li><li><a href="#resetauthinformation0a3ca20id3dresetauthinformation3e203ca3e">ResetAuthInformation
 <a id=ResetAuthInformation> </a></a></li><li><a href="#clearauthinformation0a3ca20id3dclearauthinformation3e203ca3e">ClearAuthInformation
@@ -393,7 +393,9 @@ body > pre {
 <a id=edit User> </a></a></li><li><a href="#user20info0a3ca20id3duser20info3e203ca3e">user info
 <a id=user info> </a></a></li></ul></li><li><a href="#public-without-auth">Public_without_auth</a><ul><li><a href="#getproxybyuniqueid-public0a3ca20id3dgetproxybyuniqueid-public3e203ca3e">GetProxyByUniqueId_public
 <a id=GetProxyByUniqueId_public> </a></a></li><li><a href="#resetip0a3ca20id3dresetip3e203ca3e">ResetIP
-<a id=ResetIP> </a></a></li></ul></li><li><a href="#common">Common</a><ul><li><a href="#authentication0a3ca20id3dauthentication3e203ca3e">Authentication
+<a id=ResetIP> </a></a></li><li><a href="#resetipv20a3ca20id3dresetipv23e203ca3e">ResetIPV2
+<a id=ResetIPV2> </a></a></li><li><a href="#resetipbyport0a3ca20id3dresetipbyport3e203ca3e">ResetIPByPort
+<a id=ResetIPByPort> </a></a></li></ul></li><li><a href="#common">Common</a><ul><li><a href="#authentication0a3ca20id3dauthentication3e203ca3e">Authentication
 <a id=Authentication> </a></a></li><li><a href="#login0a3ca20id3dlogin3e203ca3e">Login
 <a id=Login> </a></a></li></ul></li><li><a href="#reseller">Reseller</a><ul><li><a href="#add20reseller0a3ca20id3dadd20reseller3e203ca3e">Add Reseller
 <a id=Add Reseller> </a></a></li><li><a href="#delete20reseller0a3ca20id3ddelete20reseller3e203ca3e">Delete Reseller
@@ -403,20 +405,47 @@ body > pre {
 <a id=Add Plan> </a></a></li><li><a href="#delete20plan0a3ca20id3ddelete20plan3e203ca3e">Delete Plan
 <a id=Delete Plan> </a></a></li><li><a href="#edit20plan0a3ca20id3dedit20plan3e203ca3e">Edit Plan
 <a id=Edit Plan> </a></a></li><li><a href="#query20plan0a3ca20id3dquery20plan3e203ca3e">Query Plan
-<a id=Query Plan> </a></a></li></ul></li></ul></div>
+<a id=Query Plan> </a></a></li></ul></li><li><a href="#superport">SuperPort</a><ul><li><a href="#setspecifiedproxytoonesession0a3ca20id3dsetspecifiedproxytoonesession3e203ca3e">setSpecifiedProxyToOneSession
+<a id=setSpecifiedProxyToOneSession> </a></a></li><li><a href="#superport-clearsession0a3ca20id3dsuperport-clearsession3e203ca3e">superPort_ClearSession
+<a id=superPort_ClearSession> </a></a></li></ul></li><li><a href="#sms">SMS</a><ul><li><a href="#get20phones0a3ca20id3dget20phones3e203ca3e">Get Phones
+<a id=Get Phones> </a></a></li><li><a href="#get20sms20history0a3ca20id3dget20sms20history3e203ca3e">Get SMS History
+<a id=Get SMS History> </a></a></li><li><a href="#push20sms0a3ca20id3dpush20sms3e203ca3e">Push SMS
+<a id=Push SMS> </a></a></li></ul></li></ul></div>
           <div id="right" class="content-right">
            <h1 class="curproject-name"> APIV2 </h1> 
 <h1 id="proxies">Proxies</h1>
 <p></p>
-<h2 id="getcommandresults0a3ca20id3dgetcommandresults3e203ca3e">GetCommandResults
-<a id=GetCommandResults> </a></h2>
+<h2 id="clearporttraffic0a3ca20id3dclearporttraffic3e203ca3e">ClearPortTraffic
+<a id=ClearPortTraffic> </a></h2>
 <p></p>
 <h3 id="basic-information">Basic Information</h3>
-<p><strong>Path：</strong> /public/api/v3/rmtctl/commandresult/{uid}</p>
-<p><strong>Method：</strong> GET</p>
+<p><strong>Path：</strong> /token/api/v1/port/clearTraffic/:port</p>
+<p><strong>Method：</strong> POST</p>
 <p><strong>Description of interface</strong></p>
-<p>Return the latest 50 command results</p>
+<p>Clear the usage traffic of specified port.</p>
+<p>NOTE: It only works if the port is online.</p>
 <h3 id="request-parameters">Request parameters</h3>
+<p><strong>Headers</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Required</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/x-www-form-urlencoded</td>
+<td>YES</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <p><strong>Path Parameter</strong></p>
 <table>
 <thead>
@@ -428,9 +457,9 @@ body > pre {
 </thead>
 <tbody>
 <tr>
-<td>uid</td>
-<td></td>
-<td></td>
+<td>port</td>
+<td>proxy port</td>
+<td>10010</td>
 </tr>
 </tbody>
 </table>
@@ -440,18 +469,55 @@ body > pre {
     <tr>
       <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
     </tr>
-  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ok</span></td><td key=1><span>boolean</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> data</span></td><td key=1><span>object</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> results</span></td><td key=1><span>object []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>object</span></p></td></tr><tr key=0-1-0-0><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> id</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-1><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> cmd</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> publishAt</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-3><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> updateAt</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-4><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> result</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> msg</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
+  </thead><tbody className="ant-table-tbody">
+               </tbody>
+              </table>
+<h2 id="read20me0a3ca20id3dread20me3e203ca3e">Read Me
+<a id=Read Me> </a></h2>
+<p></p>
+<h3 id="basic-information-2">Basic Information</h3>
+<p><strong>Path：</strong> /</p>
+<p><strong>Method：</strong> GET</p>
+<p><strong>Description of interface</strong></p>
+<p><span class="colour" style="color:rgb(85, 85, 85)">ClientName menas the device uniqueId, it is androidId in androidOS, or machineId in Linux/Windows.</span><br>
+Each device may have 1 or 2 proxies (http/socks5 proxy).</p>
+<h3 id="request-parameters-2">Request parameters</h3>
+<h3 id="return-value-2">Return value</h3>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody">
+               </tbody>
+              </table>
+<h2 id="statisticinfo0a3ca20id3dstatisticinfo3e203ca3e">StatisticInfo
+<a id=StatisticInfo> </a></h2>
+<p></p>
+<h3 id="basic-information-3">Basic Information</h3>
+<p><strong>Path：</strong> /token/api/v3/proxies/statistics</p>
+<p><strong>Method：</strong> GET</p>
+<p><strong>Description of interface</strong></p>
+<p>Return the valid proxies ISP info--includes both internal and external proxies</p>
+<h3 id="request-parameters-3">Request parameters</h3>
+<h3 id="return-value-3">Return value</h3>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ok</span></td><td key=1><span>boolean</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> data</span></td><td key=1><span>object</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> data</span></td><td key=1><span>object []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>object</span></p></td></tr><tr key=0-1-0-0><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> country</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-1><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> countryCode</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> isps</span></td><td key=1><span>string []</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>string</span></p></td></tr><tr key=array-13><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> </span></td><td key=1><span></span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-3><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> regions</span></td><td key=1><span>string []</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>string</span></p></td></tr><tr key=array-14><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> </span></td><td key=1><span></span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-4><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> cities</span></td><td key=1><span>string []</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>string</span></p></td></tr><tr key=array-15><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> </span></td><td key=1><span></span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-1><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> total</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> msg</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
                </tbody>
               </table>
 <h2 id="getcommands0a3ca20id3dgetcommands3e203ca3e">GetCommands
 <a id=GetCommands> </a></h2>
 <p></p>
-<h3 id="basic-information-2">Basic Information</h3>
+<h3 id="basic-information-4">Basic Information</h3>
 <p><strong>Path：</strong> /public/api/v3/rmtctl/commands/{uid}</p>
 <p><strong>Method：</strong> GET</p>
 <p><strong>Description of interface</strong></p>
 <p>Return the current commands which published in server side, and the got commands will be cleard in server side</p>
-<h3 id="request-parameters-2">Request parameters</h3>
+<h3 id="request-parameters-4">Request parameters</h3>
 <p><strong>Path Parameter</strong></p>
 <table>
 <thead>
@@ -469,126 +535,13 @@ body > pre {
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-2">Return value</h3>
-<table>
-  <thead class="ant-table-thead">
-    <tr>
-      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
-    </tr>
-  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ok</span></td><td key=1><span>boolean</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> data</span></td><td key=1><span>object</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> commands</span></td><td key=1><span>object []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>object</span></p></td></tr><tr key=0-1-0-0><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> id</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-1><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> cmd</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> msg</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
-               </tbody>
-              </table>
-<h2 id="getspecifyproxies0a3ca20id3dgetspecifyproxies3e203ca3e">GetSpecifyProxies
-<a id=GetSpecifyProxies> </a></h2>
-<p></p>
-<h3 id="basic-information-3">Basic Information</h3>
-<p><strong>Path：</strong> /api/v2/proxy/specifyproxies</p>
-<p><strong>Method：</strong> POST</p>
-<p><strong>Description of interface</strong></p>
-<p>Get the proxies by specified proxy type, the authString in the proxoy item includes both username and passowrd, it is splited throgh 【:】</p>
-<h3 id="request-parameters-3">Request parameters</h3>
-<p><strong>Headers</strong></p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Value</th>
-<th>Required</th>
-<th>Sample</th>
-<th>Desc</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Content-Type</td>
-<td>application/json</td>
-<td>YES</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Body</strong></p>
-<table>
-  <thead class="ant-table-thead">
-    <tr>
-      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
-    </tr>
-  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> Names</span></td><td key=1><span>string []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">device Ids</span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>string</span></p></td></tr><tr key=array-25><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> </span></td><td key=1><span></span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">device Id</span></td><td key=5></td></tr>
-               </tbody>
-              </table>
-<h3 id="return-value-3">Return value</h3>
-<table>
-  <thead class="ant-table-thead">
-    <tr>
-      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
-    </tr>
-  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ok</span></td><td key=1><span>boolean</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> data</span></td><td key=1><span>object []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>object</span></p></td></tr><tr key=0-1-0><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> id</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">Empty if the device is offline</span></td><td key=5></td></tr><tr key=0-1-1><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> tunnelType</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">http/socks5</span></td><td key=5></td></tr><tr key=0-1-2><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> addr</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-3><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> authString</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-4><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> connCount</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-5><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> traffic_in</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-6><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> traffic_out</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-7><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> cur_conns</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-8><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> updateAt</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">last online time</span></td><td key=5></td></tr><tr key=0-1-9><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> port</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-10><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> name</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">device id</span></td><td key=5></td></tr><tr key=0-1-11><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> action</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-12><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> rules</span></td><td key=1><span>object,null</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-13><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> status</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">online/offline</span></td><td key=5></td></tr><tr key=0-1-14><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> clientip</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-15><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> clientloc</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-16><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> userId</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-17><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> externalInfo</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-18><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> isp</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-19><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> ipInfo</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-20><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> BytesLimited</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-21><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> LimitPeriod</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> msg</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
-               </tbody>
-              </table>
-<h2 id="publishcommand0a3ca20id3dpublishcommand3e203ca3e">PublishCommand
-<a id=PublishCommand> </a></h2>
-<p></p>
-<h3 id="basic-information-4">Basic Information</h3>
-<p><strong>Path：</strong> /public/api/v3/rmtctl/commands/{uid}</p>
-<p><strong>Method：</strong> POST</p>
-<p><strong>Description of interface</strong></p>
-<p>Publich command to device, it only works for rooted android currentlly.</p>
-<h3 id="request-parameters-4">Request parameters</h3>
-<p><strong>Headers</strong></p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Value</th>
-<th>Required</th>
-<th>Sample</th>
-<th>Desc</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Content-Type</td>
-<td>application/json</td>
-<td>YES</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Path Parameter</strong></p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Sample</th>
-<th>Desc</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>uid</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Body</strong></p>
-<table>
-  <thead class="ant-table-thead">
-    <tr>
-      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
-    </tr>
-  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> commands</span></td><td key=1><span>object []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>object</span></p></td></tr><tr key=0-0-0><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> id</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-0-1><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> cmd</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
-               </tbody>
-              </table>
 <h3 id="return-value-4">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
       <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
     </tr>
-  </thead><tbody className="ant-table-tbody">
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ok</span></td><td key=1><span>boolean</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> data</span></td><td key=1><span>object</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> commands</span></td><td key=1><span>object []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>object</span></p></td></tr><tr key=0-1-0-0><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> id</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-1><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> cmd</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> msg</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
                </tbody>
               </table>
 <h2 id="pushcommandresult0a3ca20id3dpushcommandresult3e203ca3e">PushCommandResult
@@ -656,16 +609,62 @@ body > pre {
   </thead><tbody className="ant-table-tbody">
                </tbody>
               </table>
-<h2 id="read20me0a3ca20id3dread20me3e203ca3e">Read Me
-<a id=Read Me> </a></h2>
+<h2 id="publishcommand0a3ca20id3dpublishcommand3e203ca3e">PublishCommand
+<a id=PublishCommand> </a></h2>
 <p></p>
 <h3 id="basic-information-6">Basic Information</h3>
-<p><strong>Path：</strong> /</p>
-<p><strong>Method：</strong> GET</p>
+<p><strong>Path：</strong> /public/api/v3/rmtctl/commands/{uid}</p>
+<p><strong>Method：</strong> POST</p>
 <p><strong>Description of interface</strong></p>
-<p><span class="colour" style="color:rgb(85, 85, 85)">ClientName menas the device uniqueId, it is androidId in androidOS, or machineId in Linux/Windows.</span><br>
-Each device may have 1 or 2 proxies (http/socks5 proxy).</p>
+<p>Publich command to device, it only works for rooted android currentlly.</p>
 <h3 id="request-parameters-6">Request parameters</h3>
+<p><strong>Headers</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Required</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/json</td>
+<td>YES</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Path Parameter</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>uid</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Body</strong></p>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> commands</span></td><td key=1><span>object []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>object</span></p></td></tr><tr key=0-0-0><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> id</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-0-1><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> cmd</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
+               </tbody>
+              </table>
 <h3 id="return-value-6">Return value</h3>
 <table>
   <thead class="ant-table-thead">
@@ -675,13 +674,14 @@ Each device may have 1 or 2 proxies (http/socks5 proxy).</p>
   </thead><tbody className="ant-table-tbody">
                </tbody>
               </table>
-<h2 id="resetipbyport0a3ca20id3dresetipbyport3e203ca3e">ResetIPByPort
-<a id=ResetIPByPort> </a></h2>
+<h2 id="getcommandresults0a3ca20id3dgetcommandresults3e203ca3e">GetCommandResults
+<a id=GetCommandResults> </a></h2>
 <p></p>
 <h3 id="basic-information-7">Basic Information</h3>
-<p><strong>Path：</strong> /public/api/v3/rmtctl/resetbyport/{port}</p>
+<p><strong>Path：</strong> /public/api/v3/rmtctl/commandresult/{uid}</p>
 <p><strong>Method：</strong> GET</p>
 <p><strong>Description of interface</strong></p>
+<p>Return the latest 50 command results</p>
 <h3 id="request-parameters-7">Request parameters</h3>
 <p><strong>Path Parameter</strong></p>
 <table>
@@ -694,21 +694,78 @@ Each device may have 1 or 2 proxies (http/socks5 proxy).</p>
 </thead>
 <tbody>
 <tr>
-<td>port</td>
+<td>uid</td>
 <td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
+<h3 id="return-value-7">Return value</h3>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ok</span></td><td key=1><span>boolean</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> data</span></td><td key=1><span>object</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> results</span></td><td key=1><span>object []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>object</span></p></td></tr><tr key=0-1-0-0><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> id</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-1><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> cmd</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> publishAt</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-3><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> updateAt</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-4><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> result</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> msg</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
+               </tbody>
+              </table>
+<h2 id="getspecifyproxies0a3ca20id3dgetspecifyproxies3e203ca3e">GetSpecifyProxies
+<a id=GetSpecifyProxies> </a></h2>
+<p></p>
+<h3 id="basic-information-8">Basic Information</h3>
+<p><strong>Path：</strong> /api/v2/proxy/specifyproxies</p>
+<p><strong>Method：</strong> POST</p>
+<p><strong>Description of interface</strong></p>
+<p>Get the proxies by specified proxy type, the authString in the proxoy item includes both username and passowrd, it is splited throgh 【:】</p>
+<h3 id="request-parameters-8">Request parameters</h3>
+<p><strong>Headers</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Required</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/json</td>
+<td>YES</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Body</strong></p>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> Names</span></td><td key=1><span>string []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">device Ids</span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>string</span></p></td></tr><tr key=array-16><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> </span></td><td key=1><span></span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">device Id</span></td><td key=5></td></tr>
+               </tbody>
+              </table>
+<h3 id="return-value-8">Return value</h3>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ok</span></td><td key=1><span>boolean</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> data</span></td><td key=1><span>object []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>object</span></p></td></tr><tr key=0-1-0><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> id</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">Empty if the device is offline</span></td><td key=5></td></tr><tr key=0-1-1><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> tunnelType</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">http/socks5</span></td><td key=5></td></tr><tr key=0-1-2><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> addr</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-3><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> authString</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-4><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> connCount</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-5><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> traffic_in</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-6><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> traffic_out</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-7><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> cur_conns</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-8><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> updateAt</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">last online time</span></td><td key=5></td></tr><tr key=0-1-9><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> port</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-10><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> name</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">device id</span></td><td key=5></td></tr><tr key=0-1-11><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> action</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-12><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> rules</span></td><td key=1><span>object,null</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-13><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> status</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">online/offline</span></td><td key=5></td></tr><tr key=0-1-14><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> clientip</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-15><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> clientloc</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-16><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> userId</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-17><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> externalInfo</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-18><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> isp</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-19><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> ipInfo</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-20><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> BytesLimited</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-21><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> LimitPeriod</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> msg</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
+               </tbody>
+              </table>
 <h2 id="updateproxyauth0a3ca20id3dupdateproxyauth3e203ca3e">UpdateProxyAuth
 <a id=UpdateProxyAuth> </a></h2>
 <p></p>
-<h3 id="basic-information-8">Basic Information</h3>
+<h3 id="basic-information-9">Basic Information</h3>
 <p><strong>Path：</strong> /api/v2/proxy/editauth_byname/{deviceid}</p>
 <p><strong>Method：</strong> POST</p>
 <p><strong>Description of interface</strong></p>
 <p>Update proxy authenticatoin</p>
-<h3 id="request-parameters-8">Request parameters</h3>
+<h3 id="request-parameters-9">Request parameters</h3>
 <p><strong>Headers</strong></p>
 <table>
 <thead>
@@ -775,74 +832,13 @@ Each device may have 1 or 2 proxies (http/socks5 proxy).</p>
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-7">Return value</h3>
+<h3 id="return-value-9">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
       <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
     </tr>
   </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> authString</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> updateAt</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
-               </tbody>
-              </table>
-<h2 id="superport-clearsession0a3ca20id3dsuperport-clearsession3e203ca3e">superPort_ClearSession
-<a id=superPort_ClearSession> </a></h2>
-<p></p>
-<h3 id="basic-information-9">Basic Information</h3>
-<p><strong>Path：</strong> /public/api/v3/proxy/resetip/{userName}/{sessionId}</p>
-<p><strong>Method：</strong> POST</p>
-<p><strong>Description of interface</strong></p>
-<p>Clease specified session to make the ip changes for this session</p>
-<h3 id="request-parameters-9">Request parameters</h3>
-<p><strong>Headers</strong></p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Value</th>
-<th>Required</th>
-<th>Sample</th>
-<th>Desc</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Content-Type</td>
-<td>application/x-www-form-urlencoded</td>
-<td>YES</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Path Parameter</strong></p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Sample</th>
-<th>Desc</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>userName</td>
-<td></td>
-<td>superpoert subuser name</td>
-</tr>
-<tr>
-<td>sessionId</td>
-<td></td>
-<td>sessionid</td>
-</tr>
-</tbody>
-</table>
-<h3 id="return-value-8">Return value</h3>
-<table>
-  <thead class="ant-table-thead">
-    <tr>
-      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
-    </tr>
-  </thead><tbody className="ant-table-tbody">
                </tbody>
               </table>
 <h2 id="serverinformation0a3ca20id3dserverinformation3e203ca3e">ServerInformation
@@ -853,7 +849,7 @@ Each device may have 1 or 2 proxies (http/socks5 proxy).</p>
 <p><strong>Method：</strong> GET</p>
 <p><strong>Description of interface</strong></p>
 <h3 id="request-parameters-10">Request parameters</h3>
-<h3 id="return-value-9">Return value</h3>
+<h3 id="return-value-10">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -937,7 +933,7 @@ Each device may have 1 or 2 proxies (http/socks5 proxy).</p>
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-10">Return value</h3>
+<h3 id="return-value-11">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -993,7 +989,7 @@ Each device may have 1 or 2 proxies (http/socks5 proxy).</p>
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-11">Return value</h3>
+<h3 id="return-value-12">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1028,7 +1024,7 @@ Each device may have 1 or 2 proxies (http/socks5 proxy).</p>
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-12">Return value</h3>
+<h3 id="return-value-13">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1104,7 +1100,7 @@ Each device may have 1 or 2 proxies (http/socks5 proxy).</p>
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-13">Return value</h3>
+<h3 id="return-value-14">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1138,7 +1134,7 @@ Each device may have 1 or 2 proxies (http/socks5 proxy).</p>
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-14">Return value</h3>
+<h3 id="return-value-15">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1217,7 +1213,7 @@ Update proxy 【action】 field</p>
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-15">Return value</h3>
+<h3 id="return-value-16">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1252,7 +1248,7 @@ Update proxy 【action】 field</p>
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-16">Return value</h3>
+<h3 id="return-value-17">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1270,7 +1266,7 @@ Update proxy 【action】 field</p>
 <p><strong>Description of interface</strong></p>
 <p>The response same as get proxies API</p>
 <h3 id="request-parameters-18">Request parameters</h3>
-<h3 id="return-value-17">Return value</h3>
+<h3 id="return-value-18">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1305,7 +1301,7 @@ Update proxy 【action】 field</p>
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-18">Return value</h3>
+<h3 id="return-value-19">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1381,7 +1377,7 @@ Update proxy 【action】 field</p>
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-19">Return value</h3>
+<h3 id="return-value-20">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1417,7 +1413,7 @@ Update proxy 【action】 field</p>
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-20">Return value</h3>
+<h3 id="return-value-21">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1483,7 +1479,7 @@ Update proxy 【action】 field</p>
   </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> urlOption</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> urlSites</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> urlCheckValue</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ipOption</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-4><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ipLimiters</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-5><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> nwSpeed</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-6><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> nwconcurrentConn</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-7><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> BytesLimited</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-8><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> LimitPeriod</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
                </tbody>
               </table>
-<h3 id="return-value-21">Return value</h3>
+<h3 id="return-value-22">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1529,10 +1525,10 @@ Update proxy 【action】 field</p>
     <tr>
       <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
     </tr>
-  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> name</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> password</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> concurrencyCount</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> allowedPorts</span></td><td key=1><span>string []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>string</span></p></td></tr><tr key=array-26><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> </span></td><td key=1><span></span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-4><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ByteIn</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-5><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ByteOut</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-6><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> traffTotal</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-7><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> allowedPortsStr</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> name</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> password</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> concurrencyCount</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> allowedPorts</span></td><td key=1><span>string []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>string</span></p></td></tr><tr key=array-17><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> </span></td><td key=1><span></span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-4><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ByteIn</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-5><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ByteOut</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-6><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> traffTotal</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-7><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> allowedPortsStr</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
                </tbody>
               </table>
-<h3 id="return-value-22">Return value</h3>
+<h3 id="return-value-23">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1627,7 +1623,7 @@ Update proxy 【action】 field</p>
     <tr>
       <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
     </tr>
-  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> name</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> password</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> allowedPorts</span></td><td key=1><span>string []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>string</span></p></td></tr><tr key=array-27><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> </span></td><td key=1><span></span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> traffic</span></td><td key=1><span>object</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3-0><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> ByteIn</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3-1><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> ByteOut</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3-2><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> TrafficLastUpdateAt</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-4><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> concurrencyCount</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-5><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> traffTotal</span></td><td key=1><span>null</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-6><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> allowedPortsStr</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> name</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> password</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> allowedPorts</span></td><td key=1><span>string []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>string</span></p></td></tr><tr key=array-18><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> </span></td><td key=1><span></span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> traffic</span></td><td key=1><span>object</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3-0><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> ByteIn</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3-1><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> ByteOut</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3-2><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> TrafficLastUpdateAt</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-4><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> concurrencyCount</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-5><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> traffTotal</span></td><td key=1><span>null</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-6><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> allowedPortsStr</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
                </tbody>
               </table>
 <h2 id="user20info0a3ca20id3duser20info3e203ca3e">user info
@@ -1660,7 +1656,7 @@ Update proxy 【action】 field</p>
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-23">Return value</h3>
+<h3 id="return-value-24">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1697,7 +1693,7 @@ Update proxy 【action】 field</p>
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-24">Return value</h3>
+<h3 id="return-value-25">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1753,7 +1749,121 @@ Update proxy 【action】 field</p>
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-25">Return value</h3>
+<h3 id="return-value-26">Return value</h3>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody">
+               </tbody>
+              </table>
+<h2 id="resetipv20a3ca20id3dresetipv23e203ca3e">ResetIPV2
+<a id=ResetIPV2> </a></h2>
+<p></p>
+<h3 id="basic-information-29">Basic Information</h3>
+<p><strong>Path：</strong> /public/api/v3/rmtctl/resetipv2/:user/:pwd</p>
+<p><strong>Method：</strong> GET</p>
+<p><strong>Description of interface</strong></p>
+<p>Reset ip by specified ports</p>
+<h3 id="request-parameters-29">Request parameters</h3>
+<p><strong>Headers</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Required</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/x-www-form-urlencoded</td>
+<td>YES</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Path Parameter</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>user</td>
+<td></td>
+<td>The proxy username</td>
+</tr>
+<tr>
+<td>pwd</td>
+<td></td>
+<td>The proxy password</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Query</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Required</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>port</td>
+<td>YES</td>
+<td>2000-2100,3201</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="return-value-27">Return value</h3>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody">
+               </tbody>
+              </table>
+<h2 id="resetipbyport0a3ca20id3dresetipbyport3e203ca3e">ResetIPByPort
+<a id=ResetIPByPort> </a></h2>
+<p></p>
+<h3 id="basic-information-30">Basic Information</h3>
+<p><strong>Path：</strong> /public/api/v3/rmtctl/resetbyport/{port}</p>
+<p><strong>Method：</strong> GET</p>
+<p><strong>Description of interface</strong></p>
+<h3 id="request-parameters-30">Request parameters</h3>
+<p><strong>Path Parameter</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>port</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="return-value-28">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1767,7 +1877,7 @@ Update proxy 【action】 field</p>
 <h2 id="authentication0a3ca20id3dauthentication3e203ca3e">Authentication
 <a id=Authentication> </a></h2>
 <p></p>
-<h3 id="basic-information-29">Basic Information</h3>
+<h3 id="basic-information-31">Basic Information</h3>
 <p><strong>Path：</strong> /b</p>
 <p><strong>Method：</strong> GET</p>
 <p><strong>Description of interface</strong></p>
@@ -1777,15 +1887,15 @@ you can use <a href="http://user:pwd@">http://user:pwd@</a><a href="http://1.2.3
 <p>2. Token based<br>
 a. Login with /api/login, then you can get a token<br>
 b. add http header&nbsp;&nbsp;XSRF-TOKEN: YOUR TOKEN in the request</p>
-<h3 id="request-parameters-29">Request parameters</h3>
+<h3 id="request-parameters-31">Request parameters</h3>
 <h2 id="login0a3ca20id3dlogin3e203ca3e">Login
 <a id=Login> </a></h2>
 <p></p>
-<h3 id="basic-information-30">Basic Information</h3>
+<h3 id="basic-information-32">Basic Information</h3>
 <p><strong>Path：</strong> /api/login</p>
 <p><strong>Method：</strong> POST</p>
 <p><strong>Description of interface</strong></p>
-<h3 id="request-parameters-30">Request parameters</h3>
+<h3 id="request-parameters-32">Request parameters</h3>
 <p><strong>Headers</strong></p>
 <table>
 <thead>
@@ -1835,7 +1945,7 @@ b. add http header&nbsp;&nbsp;XSRF-TOKEN: YOUR TOKEN in the request</p>
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-26">Return value</h3>
+<h3 id="return-value-29">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1849,11 +1959,11 @@ b. add http header&nbsp;&nbsp;XSRF-TOKEN: YOUR TOKEN in the request</p>
 <h2 id="add20reseller0a3ca20id3dadd20reseller3e203ca3e">Add Reseller
 <a id=Add Reseller> </a></h2>
 <p></p>
-<h3 id="basic-information-31">Basic Information</h3>
+<h3 id="basic-information-33">Basic Information</h3>
 <p><strong>Path：</strong> /token/api/v1/reseller/add</p>
 <p><strong>Method：</strong> POST</p>
 <p><strong>Description of interface</strong></p>
-<h3 id="request-parameters-31">Request parameters</h3>
+<h3 id="request-parameters-33">Request parameters</h3>
 <p><strong>Headers</strong></p>
 <table>
 <thead>
@@ -1881,10 +1991,10 @@ b. add http header&nbsp;&nbsp;XSRF-TOKEN: YOUR TOKEN in the request</p>
     <tr>
       <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
     </tr>
-  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> name</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> password</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> concurrencyCount</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> allowedPorts</span></td><td key=1><span>string []</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>string</span></p></td></tr><tr key=array-28><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> </span></td><td key=1><span></span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-4><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ByteIn</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-5><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ByteOut</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-6><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> traffTotal</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-7><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> allowedPortsStr</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-8><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> transferLimit</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> name</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> password</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> concurrencyCount</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> allowedPorts</span></td><td key=1><span>string []</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>string</span></p></td></tr><tr key=array-19><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> </span></td><td key=1><span></span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-4><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ByteIn</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-5><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ByteOut</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-6><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> traffTotal</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-7><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> allowedPortsStr</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-8><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> transferLimit</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
                </tbody>
               </table>
-<h3 id="return-value-27">Return value</h3>
+<h3 id="return-value-30">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1896,11 +2006,11 @@ b. add http header&nbsp;&nbsp;XSRF-TOKEN: YOUR TOKEN in the request</p>
 <h2 id="delete20reseller0a3ca20id3ddelete20reseller3e203ca3e">Delete Reseller
 <a id=Delete Reseller> </a></h2>
 <p></p>
-<h3 id="basic-information-32">Basic Information</h3>
+<h3 id="basic-information-34">Basic Information</h3>
 <p><strong>Path：</strong> /token/api/v1/reseller/del/{resellerName}</p>
 <p><strong>Method：</strong> POST</p>
 <p><strong>Description of interface</strong></p>
-<h3 id="request-parameters-32">Request parameters</h3>
+<h3 id="request-parameters-34">Request parameters</h3>
 <p><strong>Headers</strong></p>
 <table>
 <thead>
@@ -1948,7 +2058,7 @@ b. add http header&nbsp;&nbsp;XSRF-TOKEN: YOUR TOKEN in the request</p>
   </thead><tbody className="ant-table-tbody">
                </tbody>
               </table>
-<h3 id="return-value-28">Return value</h3>
+<h3 id="return-value-31">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -1960,104 +2070,8 @@ b. add http header&nbsp;&nbsp;XSRF-TOKEN: YOUR TOKEN in the request</p>
 <h2 id="query20resellers0a3ca20id3dquery20resellers3e203ca3e">Query Resellers
 <a id=Query Resellers> </a></h2>
 <p></p>
-<h3 id="basic-information-33">Basic Information</h3>
-<p><strong>Path：</strong> /token/api/v1/reseller/query</p>
-<p><strong>Method：</strong> POST</p>
-<p><strong>Description of interface</strong></p>
-<h3 id="request-parameters-33">Request parameters</h3>
-<p><strong>Headers</strong></p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Value</th>
-<th>Required</th>
-<th>Sample</th>
-<th>Desc</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Content-Type</td>
-<td>application/json</td>
-<td>YES</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Body</strong></p>
-<table>
-  <thead class="ant-table-thead">
-    <tr>
-      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
-    </tr>
-  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> page</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> size</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> name</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
-               </tbody>
-              </table>
-<h3 id="return-value-29">Return value</h3>
-<table>
-  <thead class="ant-table-thead">
-    <tr>
-      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
-    </tr>
-  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ok</span></td><td key=1><span>boolean</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> data</span></td><td key=1><span>object</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> users</span></td><td key=1><span>object []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>object</span></p></td></tr><tr key=0-1-0-0><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> name</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-1><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> password</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> traffic</span></td><td key=1><span>object</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2-0><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> ByteIn</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2-1><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> ByteOut</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2-2><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> TrafficLastUpdateAt</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2-3><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> Status</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2-4><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> PendingAt</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2-5><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> CurrentStartedAt</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-3><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> allowedPorts</span></td><td key=1><span>string []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>string</span></p></td></tr><tr key=array-29><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> </span></td><td key=1><span></span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-4><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> concurrencyCount</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-5><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> usedCount</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-6><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> transferLimit</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-7><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> subscription</span></td><td key=1><span>object</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-7-0><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> createdAt</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-7-1><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> period</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-7-2><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> bandwidth</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-1><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> total</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> msg</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
-               </tbody>
-              </table>
-<h2 id="update20reseller0a3ca20id3dupdate20reseller3e203ca3e">Update Reseller
-<a id=Update Reseller> </a></h2>
-<p></p>
-<h3 id="basic-information-34">Basic Information</h3>
-<p><strong>Path：</strong> /token/api/v1/reseller/edit</p>
-<p><strong>Method：</strong> POST</p>
-<p><strong>Description of interface</strong></p>
-<h3 id="request-parameters-34">Request parameters</h3>
-<p><strong>Headers</strong></p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Value</th>
-<th>Required</th>
-<th>Sample</th>
-<th>Desc</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Content-Type</td>
-<td>application/json</td>
-<td>YES</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Body</strong></p>
-<table>
-  <thead class="ant-table-thead">
-    <tr>
-      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
-    </tr>
-  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> name</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> password</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> concurrencyCount</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> allowedPorts</span></td><td key=1><span>string []</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>string</span></p></td></tr><tr key=array-30><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> </span></td><td key=1><span></span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-4><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ByteIn</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-5><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ByteOut</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-6><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> traffTotal</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-7><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> allowedPortsStr</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-8><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> transferLimit</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
-               </tbody>
-              </table>
-<h3 id="return-value-30">Return value</h3>
-<table>
-  <thead class="ant-table-thead">
-    <tr>
-      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
-    </tr>
-  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ok</span></td><td key=1><span>boolean</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> data</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> msg</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
-               </tbody>
-              </table>
-<h1 id="userplan">UserPlan</h1>
-<p></p>
-<h2 id="add20plan0a3ca20id3dadd20plan3e203ca3e">Add Plan
-<a id=Add Plan> </a></h2>
-<p></p>
 <h3 id="basic-information-35">Basic Information</h3>
-<p><strong>Path：</strong> /token/api/v1/userPlan/add</p>
+<p><strong>Path：</strong> /token/api/v1/reseller/query</p>
 <p><strong>Method：</strong> POST</p>
 <p><strong>Description of interface</strong></p>
 <h3 id="request-parameters-35">Request parameters</h3>
@@ -2088,10 +2102,106 @@ b. add http header&nbsp;&nbsp;XSRF-TOKEN: YOUR TOKEN in the request</p>
     <tr>
       <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
     </tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> page</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> size</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> name</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
+               </tbody>
+              </table>
+<h3 id="return-value-32">Return value</h3>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ok</span></td><td key=1><span>boolean</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> data</span></td><td key=1><span>object</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> users</span></td><td key=1><span>object []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>object</span></p></td></tr><tr key=0-1-0-0><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> name</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-1><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> password</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> traffic</span></td><td key=1><span>object</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2-0><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> ByteIn</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2-1><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> ByteOut</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2-2><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> TrafficLastUpdateAt</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2-3><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> Status</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2-4><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> PendingAt</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2-5><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> CurrentStartedAt</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-3><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> allowedPorts</span></td><td key=1><span>string []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>string</span></p></td></tr><tr key=array-20><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> </span></td><td key=1><span></span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-4><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> concurrencyCount</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-5><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> usedCount</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-6><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> transferLimit</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-7><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> subscription</span></td><td key=1><span>object</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-7-0><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> createdAt</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-7-1><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> period</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-7-2><td key=0><span style="padding-left: 60px"><span style="color: #8c8a8a">├─</span> bandwidth</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-1><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> total</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> msg</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
+               </tbody>
+              </table>
+<h2 id="update20reseller0a3ca20id3dupdate20reseller3e203ca3e">Update Reseller
+<a id=Update Reseller> </a></h2>
+<p></p>
+<h3 id="basic-information-36">Basic Information</h3>
+<p><strong>Path：</strong> /token/api/v1/reseller/edit</p>
+<p><strong>Method：</strong> POST</p>
+<p><strong>Description of interface</strong></p>
+<h3 id="request-parameters-36">Request parameters</h3>
+<p><strong>Headers</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Required</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/json</td>
+<td>YES</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Body</strong></p>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> name</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> password</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> concurrencyCount</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> allowedPorts</span></td><td key=1><span>string []</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>string</span></p></td></tr><tr key=array-21><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> </span></td><td key=1><span></span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-4><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ByteIn</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-5><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ByteOut</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-6><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> traffTotal</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-7><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> allowedPortsStr</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-8><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> transferLimit</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
+               </tbody>
+              </table>
+<h3 id="return-value-33">Return value</h3>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ok</span></td><td key=1><span>boolean</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> data</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> msg</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
+               </tbody>
+              </table>
+<h1 id="userplan">UserPlan</h1>
+<p></p>
+<h2 id="add20plan0a3ca20id3dadd20plan3e203ca3e">Add Plan
+<a id=Add Plan> </a></h2>
+<p></p>
+<h3 id="basic-information-37">Basic Information</h3>
+<p><strong>Path：</strong> /token/api/v1/userPlan/add</p>
+<p><strong>Method：</strong> POST</p>
+<p><strong>Description of interface</strong></p>
+<h3 id="request-parameters-37">Request parameters</h3>
+<p><strong>Headers</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Required</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/json</td>
+<td>YES</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Body</strong></p>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
   </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> name</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> reseller</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> transferLimit</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
                </tbody>
               </table>
-<h3 id="return-value-31">Return value</h3>
+<h3 id="return-value-34">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -2103,11 +2213,11 @@ b. add http header&nbsp;&nbsp;XSRF-TOKEN: YOUR TOKEN in the request</p>
 <h2 id="delete20plan0a3ca20id3ddelete20plan3e203ca3e">Delete Plan
 <a id=Delete Plan> </a></h2>
 <p></p>
-<h3 id="basic-information-36">Basic Information</h3>
+<h3 id="basic-information-38">Basic Information</h3>
 <p><strong>Path：</strong> /token//api/v1/userPlan/del/{planId}</p>
 <p><strong>Method：</strong> POST</p>
 <p><strong>Description of interface</strong></p>
-<h3 id="request-parameters-36">Request parameters</h3>
+<h3 id="request-parameters-38">Request parameters</h3>
 <p><strong>Headers</strong></p>
 <table>
 <thead>
@@ -2174,7 +2284,7 @@ b. add http header&nbsp;&nbsp;XSRF-TOKEN: YOUR TOKEN in the request</p>
   </thead><tbody className="ant-table-tbody">
                </tbody>
               </table>
-<h3 id="return-value-32">Return value</h3>
+<h3 id="return-value-35">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -2186,12 +2296,12 @@ b. add http header&nbsp;&nbsp;XSRF-TOKEN: YOUR TOKEN in the request</p>
 <h2 id="edit20plan0a3ca20id3dedit20plan3e203ca3e">Edit Plan
 <a id=Edit Plan> </a></h2>
 <p></p>
-<h3 id="basic-information-37">Basic Information</h3>
+<h3 id="basic-information-39">Basic Information</h3>
 <p><strong>Path：</strong> /token/api/v1/userPlan/edit</p>
 <p><strong>Method：</strong> POST</p>
 <p><strong>Description of interface</strong></p>
 <p>{"ok":true,"data":"success","msg":""}</p>
-<h3 id="request-parameters-37">Request parameters</h3>
+<h3 id="request-parameters-39">Request parameters</h3>
 <p><strong>Headers</strong></p>
 <table>
 <thead>
@@ -2222,7 +2332,7 @@ b. add http header&nbsp;&nbsp;XSRF-TOKEN: YOUR TOKEN in the request</p>
   </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> planId</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> name</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> reseller</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> transferLimit</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
                </tbody>
               </table>
-<h3 id="return-value-33">Return value</h3>
+<h3 id="return-value-36">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
@@ -2234,11 +2344,11 @@ b. add http header&nbsp;&nbsp;XSRF-TOKEN: YOUR TOKEN in the request</p>
 <h2 id="query20plan0a3ca20id3dquery20plan3e203ca3e">Query Plan
 <a id=Query Plan> </a></h2>
 <p></p>
-<h3 id="basic-information-38">Basic Information</h3>
+<h3 id="basic-information-40">Basic Information</h3>
 <p><strong>Path：</strong> /token/api/v1/userPlan/query/{UserName}/{ResellerName}</p>
 <p><strong>Method：</strong> POST</p>
 <p><strong>Description of interface</strong></p>
-<h3 id="request-parameters-38">Request parameters</h3>
+<h3 id="request-parameters-40">Request parameters</h3>
 <p><strong>Headers</strong></p>
 <table>
 <thead>
@@ -2282,13 +2392,282 @@ b. add http header&nbsp;&nbsp;XSRF-TOKEN: YOUR TOKEN in the request</p>
 </tr>
 </tbody>
 </table>
-<h3 id="return-value-34">Return value</h3>
+<h3 id="return-value-37">Return value</h3>
 <table>
   <thead class="ant-table-thead">
     <tr>
       <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
     </tr>
   </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ok</span></td><td key=1><span>boolean</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> data</span></td><td key=1><span>object</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> userPlans</span></td><td key=1><span>object []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>object</span></p></td></tr><tr key=0-1-0-0><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> planId</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-1><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> name</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> reseller</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-3><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> status</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-4><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> transferLimit</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-5><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> createdAt</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-1><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> total</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> msg</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
+               </tbody>
+              </table>
+<h1 id="superport">SuperPort</h1>
+<p></p>
+<h2 id="setspecifiedproxytoonesession0a3ca20id3dsetspecifiedproxytoonesession3e203ca3e">setSpecifiedProxyToOneSession
+<a id=setSpecifiedProxyToOneSession> </a></h2>
+<p></p>
+<h3 id="basic-information-41">Basic Information</h3>
+<p><strong>Path：</strong> /public/api/v3/proxy/updatePort/{fullUserName}/{session}/{port}</p>
+<p><strong>Method：</strong> POST</p>
+<p><strong>Description of interface</strong></p>
+<p>Set a specified port to one session.<br>
+With this api, you can set the expeced proxy to one session</p>
+<h3 id="request-parameters-41">Request parameters</h3>
+<p><strong>Headers</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Required</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/x-www-form-urlencoded</td>
+<td>YES</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Path Parameter</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>fullUserName</td>
+<td>r1--u1</td>
+<td>reseller--subUser</td>
+</tr>
+<tr>
+<td>session</td>
+<td>123</td>
+<td></td>
+</tr>
+<tr>
+<td>port</td>
+<td>27812</td>
+<td>the proxy port</td>
+</tr>
+</tbody>
+</table>
+<h2 id="superport-clearsession0a3ca20id3dsuperport-clearsession3e203ca3e">superPort_ClearSession
+<a id=superPort_ClearSession> </a></h2>
+<p></p>
+<h3 id="basic-information-42">Basic Information</h3>
+<p><strong>Path：</strong> /public/api/v3/proxy/resetip/{userName}/{sessionId}</p>
+<p><strong>Method：</strong> POST</p>
+<p><strong>Description of interface</strong></p>
+<p>Clease specified session to make the ip changes for this session</p>
+<h3 id="request-parameters-42">Request parameters</h3>
+<p><strong>Headers</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Required</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/x-www-form-urlencoded</td>
+<td>YES</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Path Parameter</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>userName</td>
+<td>reseller--user</td>
+<td>superpoert subuser name</td>
+</tr>
+<tr>
+<td>sessionId</td>
+<td></td>
+<td>sessionid</td>
+</tr>
+</tbody>
+</table>
+<h3 id="return-value-38">Return value</h3>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody">
+               </tbody>
+              </table>
+<h1 id="sms">SMS</h1>
+<p></p>
+<h2 id="get20phones0a3ca20id3dget20phones3e203ca3e">Get Phones
+<a id=Get Phones> </a></h2>
+<p></p>
+<h3 id="basic-information-43">Basic Information</h3>
+<p><strong>Path：</strong> /token/api/v1/sms/phones</p>
+<p><strong>Method：</strong> POST</p>
+<p><strong>Description of interface</strong></p>
+<p>Return all the phones even it's offline, and you can check its onlien status by field "status". If&nbsp; you want just get a specified number, please give suitable parameters.</p>
+<h3 id="request-parameters-43">Request parameters</h3>
+<p><strong>Headers</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Required</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/json</td>
+<td>YES</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Body</strong></p>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> page</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> size</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> condition</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">search condition</span></td><td key=5></td></tr>
+               </tbody>
+              </table>
+<h3 id="return-value-39">Return value</h3>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ok</span></td><td key=1><span>boolean</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> data</span></td><td key=1><span>object</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> phones</span></td><td key=1><span>object []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>object</span></p></td></tr><tr key=0-1-0-0><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> number</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-1><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> country</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> countryCode</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-3><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> sendCount</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-4><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> recCount</span></td><td key=1><span>number</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-5><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> onlineAt</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-6><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> status</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">online or not</span></td><td key=5></td></tr><tr key=0-1-0-7><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> lastMessage</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-8><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> lastFrom</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-9><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> lastRecAt</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-1><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> total</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> msg</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
+               </tbody>
+              </table>
+<h2 id="get20sms20history0a3ca20id3dget20sms20history3e203ca3e">Get SMS History
+<a id=Get SMS History> </a></h2>
+<p></p>
+<h3 id="basic-information-44">Basic Information</h3>
+<p><strong>Path：</strong> /token/api/v1/sms/history</p>
+<p><strong>Method：</strong> POST</p>
+<p><strong>Description of interface</strong></p>
+<p>We will do SMS clean task automaticlly, you can specify how long the SMS will be removed in conf_svr.yaml (cleanSmsAfterMins), the task will be disabled if you didn't specify that value or the value is less then 0.</p>
+<h3 id="request-parameters-44">Request parameters</h3>
+<p><strong>Headers</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Required</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/json</td>
+<td>YES</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Body</strong></p>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> page</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">1</span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> size</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">10</span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> number</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">+1345232342</span></td><td key=5></td></tr>
+               </tbody>
+              </table>
+<h3 id="return-value-40">Return value</h3>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> ok</span></td><td key=1><span>boolean</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> data</span></td><td key=1><span>object</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> messages</span></td><td key=1><span>object []</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5><p key=3><span style="font-weight: '700'">item Type: </span><span>object</span></p></td></tr><tr key=0-1-0-0><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> send_by</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-1><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> got_by</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-2><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> send_at</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-3><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> content</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-4><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> number</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-0-5><td key=0><span style="padding-left: 40px"><span style="color: #8c8a8a">├─</span> rec_at</span></td><td key=1><span>string</span></td><td key=2>Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1-1><td key=0><span style="padding-left: 20px"><span style="color: #8c8a8a">├─</span> total</span></td><td key=1><span>number</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> msg</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
+               </tbody>
+              </table>
+<h2 id="push20sms0a3ca20id3dpush20sms3e203ca3e">Push SMS
+<a id=Push SMS> </a></h2>
+<p></p>
+<h3 id="basic-information-45">Basic Information</h3>
+<p><strong>Path：</strong> /yourUrl</p>
+<p><strong>Method：</strong> POST</p>
+<p><strong>Description of interface</strong></p>
+<p>1. Specify the SMS push api address in conf_svr.yaml(smsPushAPI) firstlly,<br>
+2. The system will send the received sms to your specified address, the api must match the definition in this page.</p>
+<p>We provided a sample API implementation in github:&nbsp;<a href="https://github.com/xapanyun/4gproxy/blob/master/SDK/Server/smsReceiver.js">https://github.com/xapanyun/4gproxy/blob/master/SDK/Server/smsReceiver.js</a></p>
+<h3 id="request-parameters-45">Request parameters</h3>
+<p><strong>Headers</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Required</th>
+<th>Sample</th>
+<th>Desc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/json</td>
+<td>YES</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Body</strong></p>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody"><tr key=0-0><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> send_by</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-1><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> got_by</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-2><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> send_at</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr><tr key=0-3><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> content</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">SMS message</span></td><td key=5></td></tr><tr key=0-4><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> number</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap">phone number</span></td><td key=5></td></tr><tr key=0-5><td key=0><span style="padding-left: 0px"><span style="color: #8c8a8a"></span> rec_at</span></td><td key=1><span>string</span></td><td key=2>Not Required</td><td key=3></td><td key=4><span style="white-space: pre-wrap"></span></td><td key=5></td></tr>
+               </tbody>
+              </table>
+<h3 id="return-value-41">Return value</h3>
+<table>
+  <thead class="ant-table-thead">
+    <tr>
+      <th key=name>Name</th><th key=type>Type</th><th key=required>Required</th><th key=default>Default</th><th key=desc>Description</th><th key=sub>Others</th>
+    </tr>
+  </thead><tbody className="ant-table-tbody">
                </tbody>
               </table>
 
