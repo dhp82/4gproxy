@@ -79,9 +79,38 @@ fi
 sudo echo -e "[program:allproxyS]\ndirectory=/root/allproxyS\ncommand=/root/allproxyS/allproxyS_x\nuser=root\nstopsignal=INT\nautostart=true\nautorestart=true\nstartretries=3\nstderr_logfile=/var/log/allproxys.err.log\nstdout_logfile=/var/log/allproxys.out.log" > $SPCONFDIR/$CON_NAME
 
 #change minfds
-sudo sed -i '/\[supervisord\]/a minfds=200000   ;' $SPDIR/supervisord.conf
-sudo echo "* soft nofile 200000" | sudo tee -a /etc/security/limits.conf
-sudo echo "* hard nofile 200000" | sudo tee -a /etc/security/limits.conf
+#!/bin/bash
+
+# Check if "minfds=200000" already exists in "supervisord.conf"
+if grep -q "minfds=200000" /etc/supervisor/supervisord.conf; then
+    echo "minfds=200000 already exists in supervisord.conf"
+else
+    # Backup original supervisor.conf file
+    sudo cp /etc/supervisor/supervisord.conf /etc/supervisor/supervisord.conf.bak
+    
+    # Add "minfds=200000" to "[supervisord]" section in supervisor.conf
+    sudo sed -i '/\[supervisord\]/a minfds=200000' /etc/supervisor/supervisord.conf
+
+    # Restart Supervisor
+    sudo systemctl restart supervisor
+
+    echo "minfds=200000 added to supervisord.conf successfully!"
+fi
+
+# Check if "* soft nofile 200000" already exists in "limits.conf"
+if grep -q "* soft nofile 200000" /etc/security/limits.conf; then
+    echo "* soft nofile 200000 already exists in limits.conf"
+else
+    # Add "* soft nofile 200000" to "/etc/security/limits.conf"
+    echo "* soft nofile 200000" | sudo tee -a /etc/security/limits.conf
+
+    # Add "* hard nofile 200000" to "/etc/security/limits.conf"
+    echo "* hard nofile 200000" | sudo tee -a /etc/security/limits.conf
+
+    echo "Limits added to limits.conf successfully!"
+fi
+
+
 sudo systemctl restart supervisor
 
 echo "Installation complete!"
