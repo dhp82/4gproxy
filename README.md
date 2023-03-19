@@ -16,11 +16,7 @@ And th PC client will create proxy for each your network adapter, it means if yo
 
 The following video is for the old version, but you can also take a view.
 
-[![DEMO](https://img.youtube.com/vi/eQ9m05CQR8U/0.jpg)](https://www.youtube.com/watch?v=eQ9m05CQR8U)
-
 [![NewVersion2023](https://img.youtube.com/vi/NGSKZLOzJwk/0.jpg)](https://www.youtube.com/watch?v=NGSKZLOzJwk)
-
-[![NewVersion](https://img.youtube.com/vi/TJ4uy9Mh6bo/0.jpg)](https://www.youtube.com/watch?v=TJ4uy9Mh6bo)
 
 
 [![PC GUI Client](https://img.youtube.com/vi/fTCktSV2Oyo/0.jpg)](https://www.youtube.com/watch?v=fTCktSV2Oyo)
