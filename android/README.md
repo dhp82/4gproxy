@@ -1,3 +1,6 @@
+## Ver96
+Fixed an SMS related crash issue.
+
 ## Ver90
 Supports UDP
 
