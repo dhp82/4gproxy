@@ -1,3 +1,6 @@
+## Ver97
+Fix potential issues on SMS feature.
+
 ## Ver96
 Fixed an SMS related crash issue.
 
